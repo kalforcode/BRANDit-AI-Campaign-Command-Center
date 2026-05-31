@@ -1,134 +1,38 @@
 # BRANDit AI Campaign Command Center
+## Maldives India Edition
 
-An AI-powered Streamlit prototype built for the **BRANDit AI Transformation Associate assignment**.
+A clean Streamlit prototype created as an additional AI-based submission for the AI Transformation Associate assignment at BRANDit.
 
-This app demonstrates how Generative AI can support tourism marketing, PR planning, social media ideation, and campaign strategy creation for the Indian market.
+## What it demonstrates
 
-The current demo is focused on:
+- Campaign brief input for Maldives Tourism in the Indian market
+- AI-assisted campaign strategy generation
+- Social media content planning with reels, hooks and captions
+- PR story angle and pitch generation
+- Ready-to-attach submission note
 
-**Maldives Tourism in the Indian Market**
+The interface has been simplified to focus only on Strategy, Content and PR outputs. It does not show API tokens or model status in the UI.
 
----
+## Run locally
 
-## Project Overview
+```bash
+python -m venv venv
+venv\Scripts\activate
+pip install -r requirements.txt
+copy .env.example .env
+streamlit run app.py
+```
 
-The **BRANDit AI Campaign Command Center** converts a tourism campaign brief into usable marketing outputs such as:
+Add your Hugging Face token inside `.env` only:
 
-- Campaign strategy
-- Audience segmentation
-- Tagline ideas
-- Social media content plans
-- Reel hooks and captions
-- PR story angles
-- Media pitch ideas
-- Submission-ready campaign summary
+```bash
+HUGGINGFACEHUB_API_TOKEN=your_token_here
+HF_MODEL=meta-llama/Meta-Llama-3-8B-Instruct
+USE_AI=true
+```
 
-The goal of this prototype is to show how AI can help BRANDit move faster from campaign brief to campaign execution while keeping human creativity and review at the center.
+## Prepared by
 
----
-
-## Why This Project Was Built
-
-BRANDit works across branding, PR, marketing, tourism, and hospitality representation.
-
-This prototype shows how AI can be practically integrated into that workflow by helping teams:
-
-- Save time in campaign planning
-- Generate first-draft ideas faster
-- Create structured content directions
-- Build PR pitch angles quickly
-- Personalize campaign ideas for different audience segments
-- Support strategy, content, and client servicing teams
-
----
-
-## Key Features
-
-### 1. Campaign Brief Builder
-
-The sidebar allows users to configure the campaign brief by entering:
-
-- Destination / client name
-- Campaign goal
-- Audience segments
-- Indian city focus
-- Tone of communication
-- Language style
-- Budget level
-- Campaign duration
-
----
-
-### 2. AI Campaign Strategy Generator
-
-Generates:
-
-- Campaign big idea
-- Core positioning
-- Tagline options
-- Audience segmentation
-- Content pillars
-- Expected business impact
-
----
-
-### 3. Social Media Content Engine
-
-Generates:
-
-- 30-day content direction
-- Reel ideas
-- Hooks
-- Captions
-- Story ideas
-- Creator-led concepts
-- CTAs
-
----
-
-### 4. PR Story Engine
-
-Generates:
-
-- PR angles
-- Media pitch headlines
-- Sample pitch opening
-- Media target categories
-- AI-assisted PR reporting ideas
-
----
-
-### 5. Submission Note Generator
-
-Creates a ready-to-copy submission note explaining:
-
-- What the demo shows
-- How it helps BRANDit
-- Tools used
-- Personal implementation angle
-- Contact details
-
----
-
-## Tech Stack
-
-- Python
-- Streamlit
-- Hugging Face Inference API
-- LangChain
-- LangChain Hugging Face
-- Pandas
-- python-dotenv
-- HTML/CSS for custom UI styling
-
----
-
-## Folder Structure
-
-```text
-BRANDit-AI-Campaign-Command-Center/
-│
-├── app.py
-├── requirements.txt
-├── .env.example
-└── README.md
+Kalpanasingh Chauhan  
++91 8850159663  
+chauhankalpana2020@gmail.com

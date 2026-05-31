@@ -1,0 +1,27 @@
+BRANDit AI Campaign Command Center - Maldives India Edition
+Prepared as an additional AI prototype for the AI Transformation Associate assignment.
+
+WHAT THIS DEMO SHOWS
+- AI-assisted campaign planning for Maldives Tourism in the Indian market
+- Audience segmentation and campaign theme generation
+- Social media reel, hook and caption ideation
+- PR story angle and pitch draft generation
+- A simple brief-to-output workflow that can be adapted for tourism boards, hotels and hospitality brands
+
+HOW THIS CAN HELP BRANDit
+This prototype demonstrates how BRANDit can use AI to move faster from campaign brief to strategic direction, content planning and PR storytelling while keeping human review at the center.
+
+TOOLS USED / SUPPORTED
+- Python + Streamlit for the prototype UI
+- Hugging Face LLM configured through environment variables
+- LangChain for LLM workflow orchestration
+- Pandas for structured campaign tables
+
+PERSONAL IMPLEMENTATION ANGLE
+I have worked on AI and analytics workflows such as document parsing, semantic matching, ranking systems, chatbot-style classification and reporting concepts. This prototype applies the same implementation thinking to tourism marketing, PR planning and campaign ideation.
+
+CLOSING LINE
+My goal is not only to use AI for faster content creation, but to help BRANDit build smarter workflows where every campaign becomes easier to plan, personalize and improve.
+
+Prepared by: Kalpanasingh Chauhan
+Contact: +91 8850159663 | chauhankalpana2020@gmail.com
